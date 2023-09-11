@@ -1,13 +1,10 @@
-import Form from "./components/Form";
-// import Login from "./components/Login";
 import React from "react";
-import DoneItems from "./components/DoneItems";
+import Todos from "./pages/todos";
 
 function App() {
   return (
     <div className="App">
-      <Form />
-      {/* <DoneItems /> */}
+      <Todos />
     </div>
   );
 }
